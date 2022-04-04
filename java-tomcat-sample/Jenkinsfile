@@ -20,6 +20,7 @@ pipeline {
         }
         stage('Deploy in Staging Environment'){
             steps{
+		timeout(time:5, unit:'DAYS'){
                 build job: 'Deploy_Application_Staging_Env'
 
             }

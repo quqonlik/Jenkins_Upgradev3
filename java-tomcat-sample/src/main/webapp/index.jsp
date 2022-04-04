@@ -5,5 +5,6 @@
 <h4>This prod trigger test</h4>
 <h5>This dev self setup test</h5>
 <h6>Hello Tashkent</h6>
+<h7>Adding Dev pipeline test</h7>
 </body>
 </html>
